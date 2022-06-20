@@ -8,6 +8,15 @@ public class FunctionStackQueue {
         queue.add(data);
     }
 
+    //Removed elements from the queue
+    public void deQueue() {
+        if (queue.size() == 0) {
+            System.out.println("Queue list is empty");
+        } else {
+            queue.pop();
+        }
+    }
+
     //Method to print the elements of the queue
     public void toPrint() {
         System.out.println("Elements in the queue are :");

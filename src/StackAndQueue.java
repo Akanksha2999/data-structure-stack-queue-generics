@@ -11,6 +11,14 @@ public class StackAndQueue {
         functionStackQueue.enQueue(70);
         functionStackQueue.toPrint();
 
+        //Removed elements from the queue
+        functionStackQueue.deQueue();
+        functionStackQueue.toPrint();
+        functionStackQueue.deQueue();
+        functionStackQueue.toPrint();
+        functionStackQueue.deQueue();
+        functionStackQueue.toPrint();
+        functionStackQueue.deQueue();
 
     }
 }
