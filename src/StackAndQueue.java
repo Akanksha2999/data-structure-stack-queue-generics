@@ -5,23 +5,12 @@ public class StackAndQueue {
 
         FunctionStackQueue functionStackQueue = new FunctionStackQueue();
 
-        //Inserted elements in the stack and printing it
-        functionStackQueue.insert(70);
-        functionStackQueue.insert(30);
-        functionStackQueue.insert(56);
+        //Inserted elements in the queue and printing it
+        functionStackQueue.enQueue(56);
+        functionStackQueue.enQueue(30);
+        functionStackQueue.enQueue(70);
         functionStackQueue.toPrint();
 
-        //Elements removed from the stack until the list is not empty
-        functionStackQueue.peek();
-        functionStackQueue.pop();
-        functionStackQueue.toPrint();
-        functionStackQueue.peek();
-        functionStackQueue.pop();
-        functionStackQueue.toPrint();
-        functionStackQueue.peek();
-        functionStackQueue.pop();
-        functionStackQueue.toPrint();
-        functionStackQueue.peek();
-        functionStackQueue.pop();
+
     }
 }
