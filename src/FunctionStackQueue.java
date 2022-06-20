@@ -7,7 +7,6 @@ public class FunctionStackQueue {
     public void insert(int data) {
         stack.addFirst(data);
     }
-
     //Method to print the elements of the stack
     public void toPrint() {
         System.out.println("Elements in the stack are :");
