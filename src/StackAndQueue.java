@@ -10,5 +10,18 @@ public class StackAndQueue {
         functionStackQueue.insert(30);
         functionStackQueue.insert(56);
         functionStackQueue.toPrint();
+
+        //Elements removed from the stack until the list is not empty
+        functionStackQueue.peek();
+        functionStackQueue.pop();
+        functionStackQueue.toPrint();
+        functionStackQueue.peek();
+        functionStackQueue.pop();
+        functionStackQueue.toPrint();
+        functionStackQueue.peek();
+        functionStackQueue.pop();
+        functionStackQueue.toPrint();
+        functionStackQueue.peek();
+        functionStackQueue.pop();
     }
 }
