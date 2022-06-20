@@ -8,7 +8,7 @@ public class FunctionStackQueue {
         queue.add(data);
     }
 
-
+    //Removed elements from the queue
     public void deQueue() {
         if (queue.size() == 0) {
             System.out.println("Queue list is empty");
