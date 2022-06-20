@@ -11,5 +11,6 @@ public class StackAndQueue {
         functionStackQueue.enQueue(70);
         functionStackQueue.toPrint();
 
+
     }
 }

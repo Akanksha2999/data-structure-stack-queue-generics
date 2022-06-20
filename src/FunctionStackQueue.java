@@ -8,7 +8,6 @@ public class FunctionStackQueue {
         queue.add(data);
     }
 
-
     //Method to print the elements of the queue
     public void toPrint() {
         System.out.println("Elements in the queue are :");
